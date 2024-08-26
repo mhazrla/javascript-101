@@ -57,8 +57,8 @@ let cetakNama = () => {}
 
 // cetakNama("Adam", "Joko");
 
-let cetakNama = (...karakter) => {
-  console.log("Hello world ", karakter);
-};
+// let cetakNama = (...karakter) => {
+//   console.log("Hello world ", karakter);
+// };
 
-cetakNama("AB", "BC", "CD");
+// cetakNama("AB", "BC", "CD");
