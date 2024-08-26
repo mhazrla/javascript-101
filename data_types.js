@@ -62,7 +62,7 @@ Conversion --> Konversi tipe data
 // console.log(number1 - number2);
 
 /* Operasi String
-1. charAt() --> mendapatkan vallue dari index tertentu
+1. charAt() --> mendapatkan value dari index tertentu
 2. length --> panjang karakter
 */
 
@@ -87,7 +87,9 @@ Conversion --> Konversi tipe data
 //   umur: 54,
 // };
 
+// console.log(manusia1);
 // manusia1.nama = "Hilmy"
+// console.log(manusia1);
 
 // let object1 = new Object();
 // console.log(manusia1["nama"]);
@@ -97,19 +99,27 @@ Conversion --> Konversi tipe data
 // let array1 = ["abc", 123, true, null, undefined, {nama: "adam"}];
 // console.log(array1);
 // console.log(array1);
+// console.log(typeof array1)
 // console.log(array1 instanceof Array);
 
-let user = [
-  { nama: "Adam", address: "Bekasi" },
-  { nama: "Hilmy", address: "Jonggol" },
-  { nama: "Hilmy", address: "Jonggol" },
-  { nama: "Hilmy", address: "Jonggol" },
-  { nama: "Hilmy", address: "Jonggol" },
-  { nama: "Hilmy", address: "Jonggol" },
-  { nama: "Hilmy", address: "Jonggol" },
-];
+// let cars = [
+//   { warna: "merah", brand: "terios" }, // 0
+//   { warna: "biru", brand: "mercy", bunyi_klakson: "TINN" }, // 1
+// ];
 
-console.log(typeof user[0].nama);
+// console.log(cars[1].bunyi_klakson);
+
+// let user = [
+//   { nama: "Adam", address: "Bekasi" },
+//   { nama: "Hilmy", address: "Jonggol" },
+//   { nama: "Hilmy", address: "Jonggol" },
+//   { nama: "Hilmy", address: "Jonggol" },
+//   { nama: "Hilmy", address: "Jonggol" },
+//   { nama: "Hilmy", address: "Jonggol" },
+//   { nama: "Hilmy", address: "Jonggol" },
+// ];
+
+// console.log(typeof user[0].nama);
 // console.log(typeof user[0].nama);
 
 // let mobil = { warna: "Hijau", brand: "Volvo", klakson: "Tinn" };
