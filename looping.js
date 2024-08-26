@@ -47,18 +47,24 @@
 //   umur: "22",
 // };
 
-// for (let key in dataDiri) {
-//   console.log(dataDiri[key]);
+// for (let item in dataDiri) {
+//   console.log(dataDiri[item]);
 // }
 
 // let kumpulanWarna = ["green", "yellow", "red", "Blue"];
 
-// for(let warna of kumpulanWarna){
-//   console.log(warna)
+// for (let warna of kumpulanWarna) {
+//   console.log(warna);
 // }
 
-let x = 2;
+// let i = 0;
+// while (i < 10) {
+//   console.log("Hello world yang ke-", i);
+//   i++
+// }
 
-do {
-  console.log("Nilai awal x ialah", x);
-} while (x < 10);
+// let x = 2;
+
+// do {
+//   console.log("Nilai awal x ialah", x);
+// } while (x < 10);

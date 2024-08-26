@@ -1,7 +1,7 @@
 /*
 OPERATOR
 1. Arithmetic
-2. Logical
+2. Logical 
 3. Assignment
 4. Comparison
 5. Conditional / Ternary
@@ -19,10 +19,11 @@ Operator:
 5. ++ --> Increment  (Penjumlahan 1)
 6. -- --> Decrement (Pengurangan 1)
 7. ** --> Exponential
-8. % --> Modulus
+8. % --> Modulus = sisa pembagian
 
 Binary
 +, -, /, *, **, %
+
 
 Unary
 ++, --
@@ -49,8 +50,8 @@ LOGICAL --> Logika
 
 Operator:
 1. ! --> Negation (Tidak sama dengan) 
-2. && --> AND
-3. || --> OR
+2. && --> AND true --> keduanya true
+3. || --> OR true --> salah satunya true
 
 Logika Matematika
 
@@ -102,6 +103,7 @@ ASSIGNMENT --> Assign value
 
 let assignment1 = 10;
 // assignment1 = assignment1 + 2;
+// assignment1 += 2;
 assignment1 **= 2;
 // console.log(assignment1)
 let contoh = 2 + 5 * 7;
@@ -116,13 +118,14 @@ Comparison --> Perbandingan
 6. <= 
 */
 
-let data1 = "ABC";
-let data2 = "ABC";
+let data1 = 123;
+let data2 = "123";
+let hasil = data1 === data2;
 
 let resultOfComparison = data1 != data2;
 
 /* 
-Ternary --> Pengkondisian
+Condition / Ternary --> Pengkondisian
 abc ? "123" : "321"
 */
 

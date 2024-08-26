@@ -1,2 +1,2 @@
-console.log("Hello world!");
-console.info("Hello world info");
+console.log("Ini program pertama kita");
+console.info("Ini program pertama kita");

@@ -1,4 +1,4 @@
-/*1. Primitive
+/*1. Primitive (mudah)
     a. String --> Karakter !@#$!%!!
         "ABC", "DEF", "12412"
     b. Number --> Angka
@@ -12,9 +12,39 @@
         let undefinedExample; // undefined
     f. null --> Value kosong
         let nullExample = null // null
-2. Complex
-
+2. Complex (kompleks)
+    a. Object
+    b. Array
 */
+//  typeof = mengetahui tipe data
+
+// let array1 = [
+//   "ABC",
+//   213,
+//   true,
+//   false,
+//   null,
+//   { umur: 14, alamat: "Bogor" },
+//   { umur: 16, alamat: "Jakarta" },
+//   { nama: "Adam", status: "Siswa" },
+// ];
+
+// let array1 = ["Ayam", "Bebek", "Burung"];
+// console.log(array1[1]);
+// array1[1] = "Ikan";
+// console.log(array1);
+
+// let handphone = { merk: "Oppo", warna: "Biru", kamera: undefined };
+// console.log("Sebelum diubah ", handphone);
+// // handphone.warna = "Merah";
+// handphone["warna"] = "Merah";
+// console.log("Setelah diubah ", handphone);
+
+// delete handphone.kamera
+// console.log("Setelah dihapus ", handphone);
+// key --> uniq
+// value --> tidak harus uniq
+
 // let word; // undefined
 // let word = 214.214; // number
 // let word = 14n; // bigint
@@ -23,6 +53,13 @@
 // typeof --> untuk mengetahui tipe data
 
 // let isDataValid = true;
+
+// let word1 = "Hello";
+// let word2 = "World";
+
+// console.log(word1, word2);
+// console.log(word1 + word2);
+// console.log(` ${word1}  ${word2} ABC`); // string interpolation
 
 /**
  * String Operation
