@@ -27,9 +27,8 @@
   height: 20vh;
   padding: 20px;
   margin-top: 2rem;
-  display: flex;
+  display: grid;
   justify-content: center;
-  position: relative;
 }
 
 .square1 {
@@ -38,7 +37,9 @@
   height: 50px;
   padding: 20px;
   margin-top: 2rem;
+  grid-column: 4;
 }
+
 .square2 {
   background-color: rgb(67, 42, 255);
   width: 25px;
@@ -46,7 +47,38 @@
   padding: 20px;
   margin-top: 2rem;
   margin-left: 20px;
-  position: absolute;
+}
+.square3 {
+  background-color: rgb(67, 42, 255);
+  width: 25px;
+  height: 25px;
+  padding: 20px;
+  margin-top: 2rem;
+  margin-left: 20px;
+}
+.square4 {
+  background-color: rgb(67, 42, 255);
+  width: 25px;
+  height: 25px;
+  padding: 20px;
+  margin-top: 2rem;
+  margin-left: 20px;
+}
+.square5 {
+  background-color: rgb(67, 42, 255);
+  width: 25px;
+  height: 25px;
+  padding: 20px;
+  margin-top: 2rem;
+  margin-left: 20px;
+}
+.square6 {
+  background-color: rgb(67, 42, 255);
+  width: 25px;
+  height: 25px;
+  padding: 20px;
+  margin-top: 2rem;
+  margin-left: 20px;
 }
 
 @media screen and (max-width: 600px) {
