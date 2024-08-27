@@ -20,26 +20,27 @@
 
 // Deklarasi
 let variable1; // defaultnya undefined
-
 // Inisiasi atau Inisialisasi
-let variable2 = 21512;
-
+let variable2 = 2;
+// let variable3 = 3;
+// let hasil = variable2 + variable3;
+// console.log(hasil);
 /*
 LET
 1. Bisa diganti valuenya
 2. Tidak bisa dideklarasi ulang 
 */
-let asd = "ABC";
-asd = 123;
-asd = 1 + 2;
+// let asd = "ABC";
+// asd = 123;
+// asd = 1 + 2;
 
 /*
 CONST
 1. Value tetap / tidak bisa diganti
 2. Tidak bisa dideklarasi ulang 
 */
-const pi = 3.14;
-pi = 20 + 5;
+// const pi = 3.14;
+// pi = 20 + 5; // 25
 // const angka = 123;
 // const angka2 = angka + 5;
-// console.log(angka2);
+// console.log(pi);

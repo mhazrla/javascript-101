@@ -16,8 +16,11 @@
     a. Object
     b. Array
 */
-//  typeof = mengetahui tipe data
 
+let array1 = [];
+console.log(typeof array1);
+console.log(array1 instanceof Array); // true // false
+//  typeof = mengetahui tipe data
 // let array1 = [
 //   "ABC",
 //   213,
