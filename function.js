@@ -78,9 +78,7 @@ function cetakHari(hari) {
 
 // printNama()
 
-const printNama = (a, b, c) => {
-  console.log(a, b, c);
-  console.log("Halo");
-};
-
-printNama(1, 2, 3);
+// const printNama = (a, b, c) => {
+//   console.log(a, b, c);
+//   console.log("Halo");
+// };
