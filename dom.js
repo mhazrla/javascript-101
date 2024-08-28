@@ -36,3 +36,16 @@ function clickMe() {
 //   prompt("Enter your name");
 //   confirm("Are you sure?");
 // };
+
+const lampu = document.getElementById("lampu");
+let state = false;
+
+function aksiLampu() {
+  if (state == false) {
+    lampu.src = "https://i.ibb.co/qjSGTLb/light-bulb-on.png";
+    state = true;
+  } else if (state == true) {
+    lampu.src = "https://i.ibb.co/SKpnxzn/light-bulb-off.png";
+    state = false;
+  }
+}
