@@ -67,3 +67,26 @@ function aksiLampu() {
     lampu.style.width = "200px";
   }
 }
+
+function mouseOver(element) {
+  console.log(element);
+  element.style.backgroundColor = "green";
+  element.innerHTML =
+    "<div id='kotak-hitam' style='width:20px;height:20px;background-color:black;padding:5px'></div>";
+}
+
+function mouseLeave(element) {
+  element.style.backgroundColor = "yellow";
+  const id = document.getElementById("kotak-hitam");
+  element.removeChild(id);
+}
+
+function mouseDown(element) {
+  element.innerText = "Clicked";
+  element.style.backgroundColor = "cyan";
+}
+
+function mouseUp(element) {
+  element.innerText = "";
+  element.style.backgroundColor = "red";
+}

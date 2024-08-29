@@ -35,6 +35,20 @@
       style="width: 200px"
     />
     <button onclick="aksiLampu()">ON/OFF</button>
+    <hr />
+
+    <div
+      id="kotak"
+      onmouseover="mouseOver(this)"
+      onmouseleave="mouseLeave(this)"
+      style="width: 100px; height: 100px; background-color: blue"
+    ></div>
+
+    <div
+      onmousedown="mouseDown(this)"
+      onmouseup="mouseUp(this)"
+      style="width: 100px; height: 100px; background-color: rgb(255, 0, 0)"
+    ></div>
     <script src="dom.js"></script>
   </body>
 </html>
