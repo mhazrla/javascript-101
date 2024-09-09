@@ -382,10 +382,23 @@
           <h1 class="text-white font-bold text-5xl">
             Tentang IDN Boarding School
           </h1>
-          <ul>
-            <li>AAA</li>
-            <li>AAA</li>
-            <li>AAA</li>
+          <ul class="text-gray-300 mt-6">
+            <li class="mb-4">
+              <span class="text-white font-bold mr-5">✓</span>Kode PT/NPSN :
+              70040622
+            </li>
+            <li class="mb-4">
+              <span class="text-white font-bold mr-5">✓</span>Status : Swasta
+            </li>
+            <li class="mb-4">
+              <span class="text-white font-bold mr-5">✓</span>Tanggal SK :
+              2023-06-09
+            </li>
+            <li class="mb-4">
+              <span class="text-white font-bold mr-5">✓</span>Alamat : Jl. Raya
+              Dayeuh, Sukanegara, Kec. Jonggol, Kabupaten Bogor, Jawa Barat
+              16830
+            </li>
           </ul>
         </div>
         <div class="w-6/12">
@@ -397,6 +410,110 @@
         </div>
       </div>
     </section>
+
+    <!-- Biaya Pendidikan -->
+    <div class="container mx-auto">
+      <h1 class="text-white text-center text-5xl font-bold mb-10">
+        Biaya Pendidikan
+      </h1>
+      <div class="mb-4">
+        <ul
+          class="flex flex-wrap -mb-px text-sm font-medium text-center justify-center"
+          id="default-styled-tab"
+          data-tabs-toggle="#default-styled-tab-content"
+          data-tabs-active-classes="text-orange-500 dark:text-orange-500 border-purple-600 dark:border-purple-500"
+          data-tabs-inactive-classes="dark:border-transparent text-gray-500 hover:bg-gray-200 hover:text-orange-500 border-gray-100 hover:border-gray-300 dark:border-gray-700 dark:hover:text-orange-500"
+          role="tablist"
+        >
+          <li class="me-2" role="presentation">
+            <button
+              class="inline-block p-4 rounded-md bg-white"
+              id="dashboard-styled-tab"
+              data-tabs-target="#styled-dashboard"
+              type="button"
+              role="tab"
+              aria-controls="dashboard"
+              aria-selected="false"
+            >
+              Biaya Masuk
+            </button>
+          </li>
+          <li class="me-2" role="presentation">
+            <button
+              class="inline-block p-4 rounded-md bg-white"
+              id="settings-styled-tab"
+              data-tabs-target="#styled-settings"
+              type="button"
+              role="tab"
+              aria-controls="settings"
+              aria-selected="false"
+            >
+              SPP
+            </button>
+          </li>
+          <li role="presentation">
+            <button
+              class="inline-block p-4 rounded-md bg-white"
+              id="contacts-styled-tab"
+              data-tabs-target="#styled-contacts"
+              type="button"
+              role="tab"
+              aria-controls="contacts"
+              aria-selected="false"
+            >
+              Biaya Tahunan
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div id="default-styled-tab-content">
+        <div
+          class="hidden p-4 rounded-lg bg-white"
+          id="styled-dashboard"
+          role="tabpanel"
+          aria-labelledby="dashboard-tab"
+        >
+          <p class="text-sm text-gray-500 dark:text-gray-400">
+            This is some placeholder content the
+            <strong class="font-medium text-gray-800 dark:text-white"
+              >Dashboard tab's associated content</strong
+            >. Clicking another tab will toggle the visibility of this one for
+            the next. The tab JavaScript swaps classes to control the content
+            visibility and styling.
+          </p>
+        </div>
+        <div
+          class="hidden p-4 rounded-lg bg-white"
+          id="styled-settings"
+          role="tabpanel"
+          aria-labelledby="settings-tab"
+        >
+          <p class="text-sm text-gray-500 dark:text-gray-400">
+            This is some placeholder content the
+            <strong class="font-medium text-gray-800 dark:text-white"
+              >Settings tab's associated content</strong
+            >. Clicking another tab will toggle the visibility of this one for
+            the next. The tab JavaScript swaps classes to control the content
+            visibility and styling.
+          </p>
+        </div>
+        <div
+          class="hidden p-4 rounded-lg bg-white"
+          id="styled-contacts"
+          role="tabpanel"
+          aria-labelledby="contacts-tab"
+        >
+          <p class="text-sm text-gray-500 dark:text-gray-400">
+            This is some placeholder content the
+            <strong class="font-medium text-gray-800 dark:text-white"
+              >Contacts tab's associated content</strong
+            >. Clicking another tab will toggle the visibility of this one for
+            the next. The tab JavaScript swaps classes to control the content
+            visibility and styling.
+          </p>
+        </div>
+      </div>
+    </div>
 
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
